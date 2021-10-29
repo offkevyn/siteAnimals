@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.container .nome
+{
+    font-size: 3em;
+}
+
+
+/* MARELO */
+.container .nomeMarelo
+{
+    background-image: linear-gradient(to bottom right, #ceca61 , #de8745);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* SALEM */
+.container .nomeSalem
+{
+    background-image: linear-gradient(to bottom right, #141011 , #fffdfd);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* YUKI */
+.container .nomeYuki
+{
+    font-size: inherit;
+    color: white;
+    text-shadow: 2px 2px 8px black;
+
+}
+
+/* NERO */
+.container .nomeNero
+{
+    font-size: 1.4em;
+    background-image: linear-gradient(to bottom right, #0b0a08 , #f0b827);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+/* SUIKA */
+.container .nomeSuika
+{ 
+    background-image: linear-gradient(rgb(146, 133, 113) , #ffffff);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+   
+
+}
+
+

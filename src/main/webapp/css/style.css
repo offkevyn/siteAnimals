@@ -1,0 +1,157 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400;1,500&display=swap');
+
+/* --- GENÉRICO --- */
+html, body
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background: url(../img/background/background_coracao.png) #fffafc;
+    background-image: url(../img/background/background_coracao.png), linear-gradient(to top left, rgba(255, 163, 180, 0.070), rgba(158, 210, 245, 0.240));
+}
+
+body nav .navbar-brand
+{
+   font-family: 'Yomogi';
+}
+
+.container span
+{
+    font-size: 2em;
+}
+
+@media (max-width: 690px)
+{
+    .container span
+    {
+        font-size: 1.7em;
+    }
+}
+
+/* --- TEXTO & LABEL --- */
+.texto, label
+{
+    font-size: 1.2em;
+    background-color: #ffffff25;
+    border-radius: 35px;
+}
+
+@media (max-width: 690px)
+{
+    .texto, label
+    {
+        font-size: 1em;
+    }
+}
+
+/* --- LOGIN --- */
+.rodape
+{
+    position: absolute;
+    bottom: 0;
+}
+
+/* --- CARROSSEL --- */
+@media (min-width: 790px)
+{
+    body #fotosCarrossel
+    {
+        width: 75%;
+    }
+}
+
+#indicador
+{
+    background-color: rgba(0, 0, 0, 0.281);
+}
+
+.prev
+{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+
+/* --- TABLES --- */
+#informacao table td
+{
+    padding: 0px;
+}
+
+table .linha
+{
+    border-top: solid #38312D;
+}
+
+/* --- CONTATO --- */
+.contatos a
+{
+    display: inline-block;
+    margin: 20px 0;
+
+    font-style: none;
+    color: initial;
+}
+
+.contatos a:hover
+{
+    text-decoration: none;
+    text-shadow: 2px 2px 8px rgba(97, 92, 92, 0.712);}
+
+.contatos
+{
+    font-size: 1.8em;
+}
+
+@media (max-width: 768px)
+{
+    .contatos
+    {
+        font-size: 1.2em;
+    }
+}
+
+/* --- FOOTER --- */
+footer
+{
+    color: #FFF;
+    padding: 3%;
+}
+
+footer .fa
+{
+    padding: 10px;
+    font-size: 1.2em;
+    color: #FFF;
+}
+
+footer h3 a
+{
+    color: #FFF;
+}
+
+footer .fa:hover, h3 a:hover
+{
+    color: #d5d5d5;
+    text-decoration: none;
+}
+
+footer .container-fluid .row
+{
+    font-size: 2.2em;
+    font-weight: 600;
+    text-align: justify; 
+}
+
+@media (max-width: 690px)
+{
+    footer h3
+    {
+        font-size: 1.2em;
+    }
+
+    footer .fa
+    {
+        font-size: 1.1em;
+        padding-top: 0px;
+    }
+}
